@@ -23,7 +23,7 @@ func main() {
 	}
 
 	fmt.Println("Meditation begins...")
-	duration := time.Duration(minutes) * time.Second
+	duration := time.Duration(minutes) * time.Minute
 	time.Sleep(duration)
 	fmt.Println("Meditation ends...")
 
